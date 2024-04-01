@@ -7,9 +7,9 @@
 0. Write a program with the following functionality:  
    Pass a string as input (we will assume that this is the document number).  
    The document number has the format xxxx-yyy-xxxx-yyy-xyxy, where x is a number and y is a letter.  
-   Display the first two blocks of 4 digits on one line  
-   Display the document number, but replace blocks of three letters with (each letter will be replaced with )  
-   Display only one letter from the document number in the format yyy/yyy/y/y in lowercase  
+   Display the first two blocks of 4 digits on one line.  
+   Display the document number, but replace blocks of three letters with (each letter will be replaced with " ").  
+   Display only one letter from the document number in the format yyy/yyy/y/y in lowercase.  
    Display the letters from the document number in the format "Letters:yyy/yyy/y/y" in uppercase (implemented using the StringBuilder class).  
    Check whether the document number contains the sequence abc and whether the message contains it or not (and abc and ABC are considered the same sequence).  
    Check if the document number begins with the sequence 555.  
